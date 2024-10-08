@@ -837,24 +837,27 @@ footer {
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 /* Larger than mobile */
-@media only screen and (min-width: 320px) and (max-width: 549px) {
+@media only screen and (min-width: 20em) and (max-width: 34.31em) {
     html {
         font-size: 0.48em;
     }
     .top-bar {
-        height: 50px;
+        height: 3.125em; /* 50px -> 3.125em */
     }
     .wrap960 {
         width: 98%;
     }
     .logo-box {
         left: 0;
-        height: 50px;
-        width: 50px;
+        height: 3.125em; /* 50px -> 3.125em */
+        width: 3.125em; /* 50px -> 3.125em */
     }
     .logo-box p {
-        height: 50px;
+        height: 3.125em; /* 50px -> 3.125em */
     }
     .nav-box {
         height: auto;
@@ -862,54 +865,57 @@ footer {
         background-color: #333;
     }
     .nav {
-        font-size: 16px;
-        padding-left: 0px;
+        font-size: 1em; /* 16px -> 1em */
+        padding-left: 0;
         margin: 0 auto;
         position: static;
     }
     .nav a {
         top: 0;
-        padding: 0 0;
+        padding: 0;
         background: none;
     }
     .nav li {
-        padding: 5px 0;
-        border-top: 1px solid #888;
+        padding: 0.3125em 0; /* 5px -> 0.3125em */
+        border-top: 0.0625em solid #888; /* 1px -> 0.0625em */
     }
     .home-slide {
-        min-height: 180px;
+        background-image: url("../img/WhatsApp\ Image\ 2024-10-08\ at\ 19.10.42_c3f77efa.jpg");
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
     }
+    
     .para-slide {
-        width: 300px;
+        width: 18.75em; /* 300px -> 18.75em */
         font-size: 0.8em;
     }
     .pre-para {
-        padding-left: 5px;
-        height: 50px;
+        padding-left: 0.3125em; /* 5px -> 0.3125em */
+        height: 3.125em; /* 50px -> 3.125em */
     }
     .post-para {
-        padding-right: 18px;
-        line-height: 180px;
+        padding-right: 1.125em; /* 18px -> 1.125em */
+        line-height: 11.25em; /* 180px -> 11.25em */
     }
-    /*.team-container{height:400px;}*/
     .about-para {
-        font-size: 10px;
+        font-size: 0.625em; /* 10px -> 0.625em */
     }
     .event_column {
         display: none;
     }
     .quotes {
-        font-size: 10px;
+        font-size: 0.625em; /* 10px -> 0.625em */
     }
     .event-image {
-        width: 0%;
+        width: 0;
     }
     .instruct {
         width: 100%;
     }
     .event-content {
-        min-height: 350px;
-        max-height: 420px;
+        min-height: 21.875em; /* 350px -> 21.875em */
+        max-height: 26.25em; /* 420px -> 26.25em */
     }
     .info {
         width: 100%;
@@ -921,79 +927,78 @@ footer {
         font-size: 0.7em;
     }
     .register-container {
-        height: 240px;
+        height: 15em; /* 240px -> 15em */
     }
     .foot {
-        font-size: 10px;
+        font-size: 0.625em; /* 10px -> 0.625em */
     }
     .contact-us {
-        bottom: 110px;
+        bottom: 6.875em; /* 110px -> 6.875em */
         font-size: 1em;
     }
 }
 
-/* Larger than phablet (also point when grid becomes active) */
-@media only screen and (min-width: 550px) and (max-width: 749px) {
+/* Larger than phablet */
+@media only screen and (min-width: 34.38em) and (max-width: 46.81em) {
     html {
         font-size: 0.6em;
     }
     .top-bar {
-        height: 50px;
+        height: 3.125em; /* 50px -> 3.125em */
     }
     .wrap960 {
         width: 98%;
     }
     .logo-box {
         left: 0;
-        height: 50px;
-        width: 50px;
+        height: 3.125em; /* 50px -> 3.125em */
+        width: 3.125em; /* 50px -> 3.125em */
     }
     .logo-box p {
-        height: 50px;
+        height: 3.125em; /* 50px -> 3.125em */
     }
     .nav-box {
-        height: 50px;
-        width: 432px;
+        height: 3.125em; /* 50px -> 3.125em */
+        width: 27em; /* 432px -> 27em */
     }
     .nav a {
-        top: 10px;
-        padding: 16px 7px;
+        top: 0.625em; /* 10px -> 0.625em */
+        padding: 1em 0.4375em; /* 16px -> 1em, 7px -> 0.4375em */
     }
     .home-slide {
-        min-height: 300px;
+        min-height: 18.75em; /* 300px -> 18.75em */
     }
     .para-slide {
-        width: 480px;
+        width: 30em; /* 480px -> 30em */
     }
     .pre-para {
-        padding-left: 5px;
-        height: 50px;
+        padding-left: 0.3125em; /* 5px -> 0.3125em */
+        height: 3.125em; /* 50px -> 3.125em */
     }
     .post-para {
-        padding-right: 18px;
-        line-height: 180px;
+        padding-right: 1.125em; /* 18px -> 1.125em */
+        line-height: 11.25em; /* 180px -> 11.25em */
     }
-    /*.team-container{height:320px;}*/
     .event_column {
-        height: 120px;
+        height: 7.5em; /* 120px -> 7.5em */
     }
     .event_column img {
-        height: 120px;
+        height: 7.5em; /* 120px -> 7.5em */
     }
     .eventhover {
-        height: 120px;
+        height: 7.5em; /* 120px -> 7.5em */
     }
     .event-hover-active {
-        bottom: 120px;
+        bottom: 7.5em; /* 120px -> 7.5em */
     }
     .event-image {
-        width: 0%;
+        width: 0;
     }
     .instruct {
         width: 100%;
     }
     .event-content {
-        height: 400px;
+        height: 25em; /* 400px -> 25em */
     }
     .info {
         width: 100%;
@@ -1002,64 +1007,64 @@ footer {
         font-size: 2em;
     }
     .register-container {
-        height: 240px;
+        height: 15em; /* 240px -> 15em */
     }
     .contact-us {
-        bottom: 100px;
+        bottom: 6.25em; /* 100px -> 6.25em */
     }
 }
 
 /* Larger than tablet */
-@media only screen and (min-width: 750px) and (max-width: 999px) {
+@media only screen and (min-width: 46.88em) and (max-width: 62.44em) {
     html {
         font-size: 0.75em;
     }
     .top-bar {
-        height: 60px;
+        height: 3.75em; /* 60px -> 3.75em */
     }
     .wrap960 {
         width: 97%;
     }
     .logo-box {
-        height: 60px;
-        width: 120px;
+        height: 3.75em; /* 60px -> 3.75em */
+        width: 7.5em; /* 120px -> 7.5em */
     }
     .logo-box p {
-        height: 60px;
+        height: 3.75em; /* 60px -> 3.75em */
     }
     .nav-box {
-        height: 60px;
-        width: 500px;
+        height: 3.75em; /* 60px -> 3.75em */
+        width: 31.25em; /* 500px -> 31.25em */
     }
     .nav a {
-        top: 10px;
-        padding: 22px 10px;
+        top: 0.625em; /* 10px -> 0.625em */
+        padding: 1.375em 0.625em; /* 22px -> 1.375em, 10px -> 0.625em */
     }
     .home-slide {
-        min-height: 450px;
+        min-height: 28.125em; /* 450px -> 28.125em */
     }
     .para-slide {
-        width: 650px;
+        width: 40.625em; /* 650px -> 40.625em */
     }
     .pre-para {
-        padding-left: 27px;
-        height: 62px;
+        padding-left: 1.6875em; /* 27px -> 1.6875em */
+        height: 3.875em; /* 62px -> 3.875em */
     }
     .post-para {
-        padding-right: 52px;
-        line-height: 220px;
+        padding-right: 3.25em; /* 52px -> 3.25em */
+        line-height: 13.75em; /* 220px -> 13.75em */
     }
     .event_column {
-        height: 150px;
+        height: 9.375em; /* 150px -> 9.375em */
     }
     .event_column img {
-        height: 150px;
+        height: 9.375em; /* 150px -> 9.375em */
     }
     .eventhover {
-        height: 150px;
+        height: 9.375em; /* 150px -> 9.375em */
     }
     .event-hover-active {
-        bottom: 150px;
+        bottom: 9.375em; /* 150px -> 9.375em */
     }
     .event-image {
         background-size: contain !important;
@@ -1068,33 +1073,36 @@ footer {
         font-size: 2em;
     }
     .register-container {
-        height: 280px;
+        height: 17.5em; /* 280px -> 17.5em */
     }
     .contact-us {
-        bottom: 110px;
+        bottom: 6.875em; /* 110px -> 6.875em */
     }
 }
+
 .event-text {
     background-color: red;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100%; /* Adjust height as needed */
+    height: 100%;
     text-align: center;
-    padding: 20px; /* Add padding for aesthetics */
+    padding: 1.25em; /* 20px -> 1.25em */
 }
 
 .event-text p {
-    margin: 0; /* Remove default margin */
-    font-size: 1.5rem; /* Adjust font size as needed */
+    margin: 0;
+    font-size: 1.5rem;
 }
 
 /* Larger than desktop */
-@media (min-width: 1000px) and (max-width: 1199) {
-    /*.team-container{height:400px;}*/
+@media (min-width: 62.5em) and (max-width: 74.94em) {
+    /* .team-container { height: 25em; } */ /* 400px -> 25em */
 }
 
 /* Larger than Desktop HD */
-@media (min-width: 1200px) {
+@media (min-width: 75em) {
+    /* .team-container { height: 25em; } */ /* 400px -> 25em */
 }
+
