@@ -1,0 +1,504 @@
+<!doctype html>
+<html class="no-js" lang>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
+    <title>MACET Geekathon | 2K24</title>
+    <meta name="description" content>
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="theme-color" content="#333333">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet" />
+    <!-- Place favicon.ico in the root directory -->
+
+    <style media="screen">
+          html, body{
+            overflow-y: hidden;
+          }
+          #loading-screen{
+            background-color: #1f1f1f;
+            color: #FFF;
+            float: left;
+            position: absolute;
+            z-index: 25;
+          }
+          .loader-box{
+            width: 500px;
+            height: auto;
+            margin: auto auto;
+            position:absolute;
+             left:50%;
+             top:50%;
+             margin-left:-200px;
+             margin-top:-50px;
+             box-sizing: border-box;
+          }
+          .loader-message{
+            float: right;
+            height: 75px;
+            margin-top: -50px;
+            box-sizing: border-box;
+            text-align: left;
+            width: 80%;
+            color: #fff;
+            font-family: Helvetica, Arial, sans-serif;
+            font-variant: small-caps;
+            font-size: 24px;
+          }
+          .loading {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: solid 10px rgba(255, 255, 255, 0.2);
+            border-top-color: #FFF;
+            animation: spin 1s infinite linear;
+          }
+          @keyframes spin {
+            100% {
+              transform: rotate(360deg);
+            }
+          }
+          @media only screen and (min-width: 320px) and (max-width:549px){
+              .loader-box{margin-left: -240px;}
+              .loading{position: relative; bottom: 80px;
+              left:40%;}
+          }
+        </style>
+    <!-- <<<<<<< HEAD -->
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- <link rel="stylesheet" href="css/skeleton.css" /> -->
+    <!-- <script src="js/vendor/modernizr-2.8.3.min.js"></script> -->
+
+    <!-- ======= -->
+    <!-- >>>>>>> origin/master -->
+  </head>
+  <body>
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <!-- Add your site or application content here -->
+    <div id="loading-screen">
+      <div class="loader-box"><div class="loading"></div><div
+          class="loader-message">Powering Up the Code…</div></div>
+    </div>
+
+    <script type="text/javascript">
+          window.onbeforeunload = function(){
+            window.scrollTo(0,0);
+          }
+          var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+          var h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+          document.getElementById('loading-screen').setAttribute("style","width:100%; height:100%;");
+          document.getElementById('loading-screen').style.width='100%';
+          document.getElementById('loading-screen').style.height='100%';
+        </script>
+
+    <div class="scroll-down"><img src="img/scroll-down.png" alt="scroll down"
+        width="100%" /></div>
+
+    <header class="top-bar ">
+      <div class="wrap960">
+        <div class="logo-box"><div class="logo"><a
+              href="index.html"><p>MACET Geekathon</p></a></div></div>
+        <div class="menu-button"> </div>
+        <div class="nav-box">
+          <ul class="nav">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Team">Team</a></li>
+            <li><a href="#Events">Events</a></li>
+            <li><a href="#Register">Register</a></li>
+
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <div name="Home" class="home-slide">
+      <div class="overlay-pattern">
+        <div class="para-slide">
+          <div class="pre-para invisible">Hi All</div>
+          <div class="para">MACET </div><div class="digm2">Geekathon</div>
+          <div class="post-para">2K24</div>
+        </div>
+      </div>
+    </div>
+
+    <div name="About" class="about-container">
+      <div
+        class="section-title">About<p>&diams;&nbsp;&diams;&nbsp;&diams;</p></div>
+      <div class="about-para">
+        <p><span>MACET Geekathon</span> is the ultimate tech extravaganza,
+          marking its debut as <span>MACET's</span> first-ever tech fest,
+          organized by the dedicated admins of <span>Geeky Macet</span>.
+          <br>Join us for an exciting lineup of activities, featuring thrilling
+          coding challenges, engaging quizzes, and innovative hackathons
+          designed to test your skills and ignite your creativity.
+          <br>Participants will have the opportunity to collaborate with fellow
+          tech enthusiasts, showcasing their talents in a competitive yet
+          supportive environment. <br>Don’t miss this chance to elevate your
+          tech journey and be part of something groundbreaking at <span>MACET
+            Geekathon</span>! Dive in, connect, and let your ideas shine!</p>
+      </div>
+
+      <div class="main-logo-container">
+
+      </div>
+      <div class="para-detail-container">
+        <div class="num-event">
+          <span>5</span><br>events
+        </div>
+        <div class="event-date">
+          <span>tbd soon</span><br>event date
+        </div>
+        <div class="cash-prize">
+          <span>$</span><br>Various Prizes
+        </div>
+      </div>
+
+    </div>
+
+    <div name="Team" class="team-container">
+      <div class="black-overlay">
+        <div class="section-title member-detail">Core Team<p>&diams;&nbsp;
+            &diams;&nbsp; &diams;</p></div>
+        <div class="container">
+          <div class="row">
+            <div class="add">
+              <div class="three columns">
+                <div class="member-photo"><span
+                    class="member-name">Nameera Ahmad</span></div>
+              </div>
+              <div class="three columns">
+                <div class="member-photo"><span class="member-name">AL
+                    Fahad AHMAD</span></div>
+              </div>
+            </div>
+            <div class="add">
+              <div class="three columns">
+                <div class="member-photo"><span class="member-name">Mohammad
+                    Sameer Abbas</span></div>
+              </div>
+              <div class="three columns">
+                <div class="member-photo"><span class="member-name">Sameer
+                    Sadar</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="add">
+              <div class="three columns">
+                <div class="member-photo"><span
+                    class="member-name">Hashim Mohammad</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div name="Events" class="event-container">
+      <div class="container">
+        <div
+          class="section-title ">Events<p>&diams;&nbsp;&diams;&nbsp;&diams;</p><br></div>
+
+        <div class="row event_row">
+          <div class="three columns event_column event-list-1">
+            <img src="img/codequest_icon.png" width="100%" />
+            <div class="eventhover"><div class="plus"></div></div>
+          </div>
+          <div class="three columns event_column event-list-2">
+            <img src="img/dsa_showdown_icon.png" width="100%" />
+            <div class="eventhover"><div class="plus"></div></div>
+          </div>
+          <div class="three columns event_column event-list-3">
+            <img src="img/stylesprint_icon.png" width="100%" />
+            <div class="eventhover"><div class="plus"></div></div>
+          </div>
+          <div class="three columns event_column event-list-4">
+            <img src="img/braintek_icon.png" width="100%" />
+            <div class="eventhover"><div class="plus"></div></div>
+          </div>
+          <div style="margin-top: 2rem; align-self: center;"
+            class="three columns event_column event-list-5">
+            <img src="img/code_storm_icon.png" width="100%" />
+            <div class="eventhover"><div class="plus"></div></div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div name="Event_Slider" class="event-content">
+  <div class=whole-event>
+    <!-- EVENT ONE -->
+    <div class="event event-active event-1">
+
+      <div class="event-image"></div>
+      <div class="instruct">
+        <img class="ins-close" src="img/back-arrow-button.png" />
+
+        <h1>Treasure Hunt:</h1>
+<p>Description:</p>
+<p> Participants will embark on a thrilling adventure to solve a
+  series of clues scattered across both physical and digital
+  locations. Each clue will test logical thinking, code-breaking,
+  and puzzle-solving skills, requiring participants to work
+  through complex challenges to uncover the next location or task.</p>
+<p>Rules:</p>
+<ul>
+  <li>Teams are allowed to use search engines and computer programs to solve clues.</li>
+  <li>Any use of AI tools (e.g., ChatGPT, Copilot) will result in immediate disqualification.</li>
+  <li>Collaboration between teams is strictly prohibited.</li>
+  <li>Teams must work independently; any collaboration between teams is strictly prohibited.</li>
+</ul>
+<p>The winning team will be the first to finish all the challenges and reach the final destination.</p>
+         </div>
+          <div class="info">
+            <img class="info-close" src="img/x-button.png" />
+            <div class="desc">
+              <span class="event_title"> &nbsp; CodeQuest: The Tech Treasure
+                Hunt </span>
+              <div class="quotes"> <br />
+                Solve all the clues and progress through the series of challenges, with the ultimate goal of being the first team to complete the treasure hunt.
+              </div>
+
+              <div class="button">
+                <div class="instruction">
+                  <input class="ins" value="INSTRUCTIONS" type="button" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- EVENT ONE ENDS   -->
+
+        <!-- EVENT TWO -->
+        <div class="event event-2">
+          <div class="event-image"></div>
+          <div class="instruct">
+            <img class="ins-close" src="img/back-arrow-button.png" />
+            <h1>Coding Challenge</h1>
+<p>Description:</p>
+<p>This round will test participants' problem-solving skills with challenging questions based on Data Structures and Algorithms. Competitors will face a series of coding problems and will be required to write efficient code to solve them.</p>
+<h3>Rules</h3>
+<ul>
+  <li>No AI assistance (e.g., ChatGPT) or internet searches are allowed.</li>
+  <li>Participants will use only the programming environment provided to them.</li>
+  <li>Plagiarism or copying code will lead to disqualification.</li>
+</ul>
+
+          </div>
+          <!-- <img src="img/data1.jpg" class="e_image"> -->
+          <!-- </div> -->
+          <div class="info">
+            <img class="info-close" src="img/x-button.png" />
+            <div class="desc">
+              <span class="event_title"> &nbsp; DSA Showdown </span>
+              <div class="quotes"> <br />
+                Solve all the DSA problems within the given time limit, focusing on both correctness and efficiency. Faster and more optimal solutions will receive higher scores.
+              </div>
+              <div class="button">
+                <div class="instruction">
+                  <input class="ins" value="INSTRUCTIONS" type="button" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- EVENT TWO ENDS   -->
+
+        <!-- EVENT THREE -->
+        <div class="event event-3">
+          <div class="event-image"></div>
+          <div class="instruct">
+            <img class="ins-close" src="img/back-arrow-button.png" />
+
+            <h1>StyleSprint: The CSS Challenge</h1>
+
+            <br>
+            <p>Description:</p>
+            <p>Participants will embark on a thrilling adventure to solve a series of clues scattered across both physical and digital locations. Each clue will test logical thinking, code-breaking, and puzzle-solving skills, requiring participants to work through complex challenges to uncover the next location or task.</p>
+            <h3>Rules</h3>
+            <ul>
+              <li>No AI tools or internet searches are allowed.</li>
+              <li>Participants can only use basic web development tools.</li>
+              <li>The use of external libraries or frameworks is prohibited.</li>
+            </ul>
+            
+          </div>
+          <!-- <img src="img/data1.jpg" class="e_image"> -->
+          <!-- </div> -->
+          <div class="info">
+            <img class="info-close" src="img/x-button.png" />
+            <div class="desc">
+              <span class="event_title"> StyleSprint: The CSS Challenge</span>
+              <div class="quotes"> <br />
+                Reproduce the given design accurately, ensuring responsiveness and adherence to best practices in CSS. Creativity and functionality are key to earning extra points.
+              </div>
+              <div class="button">
+                <div class="instruction">
+                  <input class="ins" value="INSTRUCTIONS" type="button" />
+                </div>
+              </div>
+            </div>
+            <br>
+          </div>
+        </div>
+        <!-- EVENT THREE ENDS   -->
+
+        <!-- EVENT FOUR -->
+        <div class="event event-4">
+          <div class="event-image"></div>
+          <div class="instruct">
+            <img class="ins-close" src="img/back-arrow-button.png" />
+
+            <h1>The Tech Quiz</h1>
+            <p>Description:</p>
+            <p>A multi-round quiz that covers a broad range of tech-related topics, including computer science, programming languages, and emerging technology trends. The competition will feature various rounds such as multiple-choice questions (MCQs), image-based questions, and rapid-fire rounds.</p>
+            <h3>Rules</h3>
+            <ul>
+              <li>The quiz will have multiple rounds, including MCQs, picture, and rapid-fire rounds.</li>
+              <li>No internet searches or AI tools can be used.</li>
+              <li>Collaboration between teams is strictly prohibited.</li>
+              <li>Teams will compete head-to-head, and the team with the most points at the end of all rounds will be declared the winner.</li>
+            </ul>
+            
+          </div>
+
+          <div class="info">
+            <img class="info-close" src="img/x-button.png" />
+            <div class="desc">
+              <span class="event_title">BrainTeK: The Tech Quiz</span>
+              <div class="quotes"> <br />
+                Answer as many questions as possible to accumulate points, with a special emphasis on quick and accurate responses in the rapid-fire round.
+              </div>
+              <div class="button">
+                <div class="instruction">
+                  <input class="ins" value="INSTRUCTIONS" type="button" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- EVENT FOUR ENDS   -->
+
+        <!-- EVENT FIVE -->
+        <div class="event event-5">
+          <div class="event-image"></div>
+          <div class="instruct">
+            <img class="ins-close" src="img/back-arrow-button.png" />
+            <h1>Hackathon Challenge</h1>
+            <p>Description:</p>
+            <p>A fast-paced hackathon event where teams will collaborate to develop a working prototype or solve a real-world problem using technology. The challenge may focus on areas like app development, web development, or addressing societal issues. Teams are encouraged to brainstorm creative solutions and build them within a limited time frame.</p>
+            <h3>Rules</h3>
+            <ul>
+              <li>Teams must code their solution from scratch during the event; pre-built solutions are disqualified.</li>
+              <li>AI tools (e.g., ChatGPT, Copilot) are allowed only for brainstorming and ideation purposes, but not for writing code.</li>
+              <li>Internet searches are allowed for documentation and libraries, but any use of pre-existing codebases, templates, or libraries must be declared.</li>
+              <li>Each team will present their solution, and judges will evaluate the functionality, creativity, and impact of the project.</li>
+            </ul>
+          </div>
+          <div class="info">
+            <img class="info-close" src="img/x-button.png" />
+            <div class="desc">
+              <span class="event_title"> &nbsp;Code Strom: The Hackathon </span>
+              <div class="quotes"> <br />
+                Create an innovative solution from scratch within the time limit. Teams will present a functional prototype at the end of the event, and extra points will be awarded for creativity and the practical application of the solution.
+              </div>
+              <div class="button">
+                <div class="instruction">
+                  <input class="ins" value="INSTRUCTIONS" type="button" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- EVENT FIVE ENDS   -->
+
+      </div>
+
+      <!-- <div class="arrow"> -->
+      <div class="leftarrow">
+        <img src="img/left-arrow.png" width="40px" height="70px" />
+      </div>
+      <div class="rightarrow">
+        <img src="img/right-arrow.png" width="40px" height="70px" />
+      </div>
+      <!-- </div> -->
+
+    </div>
+
+    <div name="Register" class="register-container">
+      <div class="black-overlay">
+        <div
+          class="section-title member-detail">Register<p>&diams;&nbsp;&diams;&nbsp;&diams;</p></div>
+        <div class="register-info">Registrations will Close Soon <span
+            style="color:#cd2929">Hurry Up !</span><br><br><br><a
+            class="reg-button" href="https://docs.google.com/forms/d/e/1FAIpQLSc8wKiwCCgF_fR_C7OmaMmZLM2AY0fLAq_XtR0GhZPRZQV-NQ/viewform?pli=1">Register
+            Now</a><br><br><br></div>
+      </div>
+    </div>
+    <div name="Map" class="ssn-map">
+      <div class="map-line"></div>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14394.118645701079!2d84.9821234!3d25.5873103!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed55829f823765%3A0x73cf8c6e24c57104!2sMaulana%20Azad%20College%20of%20Engineering%20%26%20Technology%20%7BMACET%7D!5e0!3m2!1sen!2sin!4v1728397995409!5m2!1sen!2sin"
+        width="600" height="450" style="border:0;" allowfullscreen
+        loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+      <div class="map-line"></div>
+      <div class="contact-us" id="contact-us">
+        <div style="width:70%;"></div>
+        <div style="background:#cd2929; width:30%; padding: 20px;">
+          <b><span style="font-size: 1.2em">Contact for more information:
+              Geeky Macet Admins</span></b><br>
+
+          <br>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="foot">
+        Copyright &copy; <a
+          href>2024
+          GeekyMacet</a><br />
+        Handcrafted By <a href> <br>Mohammad Sameer Abbas<br>Al Fahad Ahmad
+          <br>Sameer Sadar
+        </a></div>
+    </footer>
+
+    <!-- FOOTER ENDS -->
+
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+    <!--<script src="js/plugins.js"></script>-->
+    <script src="js/main.js"></script>
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID.
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+             function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+             e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+             e.src='https://www.google-analytics.com/analytics.js';
+             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+             ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script> -->
+  </body>
+</html>
